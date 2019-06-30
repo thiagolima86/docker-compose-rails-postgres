@@ -25,7 +25,8 @@ default: &default
   encoding: unicode
   host: postgres
   username: postgres
-  password: mypassword```
+  password: mypassword
+```
 
 ## Create the databases
 ```$ docker-compose run web rails db:create```
